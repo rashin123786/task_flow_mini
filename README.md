@@ -1,16 +1,42 @@
-# taskflow_mini
+🗂️ TaskFlow Mini
 
-A new Flutter project.
+A simple task management app built with Flutter using Clean Architecture + BLoC.
+It helps you manage Projects → Tasks → Subtasks easily with local storage (Hive).
 
-## Getting Started
+🚀 Features
 
-This project is a starting point for a Flutter application.
+Create, update, and archive Projects
+Add Tasks under projects
+Add and manage Subtasks under each task
+Change task status and track progress
+Light & Dark themes
+Local data storage using Hive
+Navigation with GoRouter
+State management using flutter_bloc
+Simple reports showing project progress
 
-A few resources to get you started if this is your first Flutter project:
+🏗️ Tech Stack
+Flutter (null-safe)
+flutter_bloc – state management
+equatable – value equality
+provider – theme switching
+go_router – navigation
+hive – local database
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🧱 Folder Structure
+lib/
+├── data/          # Data sources & repository implementations
+├── domain/        # Entities, use cases, abstract repositories
+├── presentation/  # UI, BLoC, and routes
+├── core/          # Themes, constants, helpers
+└── main.dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+🎨 Theming
+
+Supports Light 🌞 and Dark 🌙 mode
+Primary Color: #0EA5E9
+
+
+* Screenshot and apk in below link :-
+  https://drive.google.com/drive/folders/1XIuClaFui-o3722lcUPQr_wkA3IYJN6Z?usp=sharing
